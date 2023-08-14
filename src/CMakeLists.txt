@@ -20,5 +20,5 @@ target_compile_options(
     # "-D_DEBUG"
 )
 
-target_link_libraries(libddckv ${Boost_LIBRARIES} boost_context boost_fiber tbb)
+target_link_libraries(libddckv ibverbs ${Boost_LIBRARIES} boost_context boost_fiber tbb)
 
